@@ -79,7 +79,7 @@ p{
         background-size: cover;
     }
     .main{
-        width: 1020px;
+        width: 1320px;
     }
     .item{
         display: flex;
@@ -88,24 +88,30 @@ p{
         
     }
     .header img{
-        width: 130px ;
+        width: 150px ;
+        margin: 1rem 0;
     }
     .item .first-item img{
-        width: 500px;
+        width: 720px;
     }
-    .second-item{
+    .second-item h1{
         text-align: start;
+        font-size: 40px;
+    }
+    .second-item p{
+        font-size: 20px;
+        text-align: start;
+        line-height: 1.6;
+        margin: 1rem 0 0 0;
     }
     .button{
         text-align: start;
     }
     .button button{
         width: 40%;
-        padding: 0.8rem 0;
+        padding: 1rem 0;
     }
-    .item p{
-        padding-bottom: 1rem;
-    }
+    
     .item h1{
         padding-bottom: 1rem;
         padding-top: 1.5;
