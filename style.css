@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   min-height: 100vh;
+    background-image: url("bg-mobile.svg");
+    background-position-x: 45%;
+   background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+
+}
+.header img{
+    width: 100px;
+    padding: 2.5rem 0 2.5rem 0;
+    
+}
+.header{
+    text-align: start;
+    margin-bottom: 1rem;
+}
+.main{
+    width: 360px;
+}
+h1{
+    padding: 1.5rem 0;
+}
+p{
+    padding: 0 0 2rem 0;
+}
+.item .first-item img{
+    object-fit: cover;
+    width: 360px;
+    
+}
+.button button{
+    width: 50%;
+    padding: 0.5rem 0;
+    border-radius: 1.5rem;
+    border: 2px solid white;
+   outline: none;
+   border: none;
+
+    
+}
+.button button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+.button{
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+.icon i{
+    margin-right: 1rem;
+    border: 1px solid white;border-radius: 50%;
+    padding: 8px;
+}
+.icon i:hover{
+ color: hsl(300, 69%, 71%);
+ border: 1px solid hsl(300, 69%, 71%) ;
+}
+.icon{
+    margin-bottom: 2rem;
+}
+@media (min-width : 1020px) {
+    body{
+        background-image: url("bg-desktop.svg");
+        
+        background-size: cover;
+    }
+    .main{
+        width: 1020px;
+    }
+    .item{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        
+    }
+    .header img{
+        width: 130px ;
+    }
+    .item .first-item img{
+        width: 500px;
+    }
+    .second-item{
+        text-align: start;
+    }
+    .button{
+        text-align: start;
+    }
+    .button button{
+        width: 40%;
+        padding: 0.8rem 0;
+    }
+    .item p{
+        padding-bottom: 1rem;
+    }
+    .item h1{
+        padding-bottom: 1rem;
+        padding-top: 1.5;
+    }
+    .icon{
+        text-align: end;
+    }
+    .item .second-item{
+        align-self: flex-start;
+    }
+}
