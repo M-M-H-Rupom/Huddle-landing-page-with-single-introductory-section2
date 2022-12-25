@@ -1,6 +1,7 @@
 ### Links
 
-- Live Site URL: (https://m-m-h-rupom.github.io/Huddle-landing-page-with-single-introductory-section2/)
+- Live Site URL: (https://mohrajul.github.io/Huddle-landing-page-with-single-introductory-section2/)
+
 
 
 # Frontend Mentor - Huddle landing page with single introductory section
